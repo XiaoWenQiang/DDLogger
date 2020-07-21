@@ -1,0 +1,46 @@
+{
+  "name": "DDLogger",
+  "version": "0.1.0",
+  "summary": "A short description of DDLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaowenqiang_1@126.com/DDLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaowenqiang_1@126.com": "mike.xiaowenqiang@dadaabc.net"
+  },
+  "source": {
+    "git": "https://github.com/xiaowenqiang_1@126.com/DDLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDLogger/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "mars"
+  ],
+  "libraries": [
+    "c++",
+    "resolv"
+  ],
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64 armv7",
+    "OTHER_LDFLAGS": "-ObjC",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++11",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "ENABLE_BITCODE": "NO"
+  },
+  "user_target_xcconfig": {
+    "VALID_ARCHS": "arm64 armv7",
+    "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/DDLogger/Vendor/"
+  },
+  "ios": {
+    "vendored_frameworks": "DDLogger/Vendor/mars.framework"
+  }
+}

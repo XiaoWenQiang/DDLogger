@@ -1,0 +1,27 @@
+PODS:
+  - DDLogger (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDLogger (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDLogger: d339febbe149afeeed5d524e77debf68634e6d27
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ed3e3c125838b981af27b52c911c956eaf713c92
+
+COCOAPODS: 1.8.4
